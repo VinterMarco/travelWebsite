@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=======NAVIGATION========*/
+
+
+nav {
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+/*========= top banner ============*/
+.top-banner {
+    background-image: url("assets/bali.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-title {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+}
+
+
+.main-title h1 {
+    position: relative;
+    top: 8rem;
+    font-size: 10rem;
+    font-family: sans-serif;
+}
+
+.main-title h4 {
+    position: relative;
+    bottom: 3rem;
+    font-size: 2.8rem;
+    font-family: sans-serif;
+}
+
+.main-title button {
+    -webkit-text-stroke: 0.1px white;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 11rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 30px;
+}
+
+.main-title button:hover {
+    width: 16rem;
+    height: 3.2rem;
+    transition: 1s ease-in-out 0.01s;
+    background: #282b33;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+
+
+
+
+/* cards */
+
+.main-content{
+   background-color: #282b33;
+    width: 100%;
+
+
+}
+
+.cards-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(40,43,51);
+    width: 100%;
+    min-height: 350px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 15px;
+
+
+
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 20rem;
+    height: 20em;
+
+}
+
+.card-1:hover{
+    width: 21.5rem;
+    height: 20.5rem;
+    transition: 1s ease-in-out 0.01s;
+    background: #282b33;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+
+/*==================Cicles =========================*/
+
+.circles-wrapper{
+    background-color: rgb(40, 43, 51);  /*rgb(40, 43, 51);*/
+    min-height: 550px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.circle-1{
+    position: absolute;
+    left: calc(30% - 130px);
+    border-radius: 50%;
+    background-image: url("assets/mountain_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 260px;
+    transition: 1s linear;
+}
+
+.circle-2 {
+    position: absolute;
+    left: calc(55% - 300px);
+    border: 10px solid whitesmoke;
+    width: 600px;
+    border-radius: 50%;
+    background-image: url("assets/mountain_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    animation: none;
+}
+.circle-3 {
+    position: absolute;
+    left: calc(40% - 150px);
+    top: 70%;
+    border: 5px solid whitesmoke;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url("assets/mountain_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+
+.circle-4 {
+    position: absolute;
+    left: calc(21% - 65px);
+    top: 55%;
+    background-color: transparent;
+    border: 20px solid #f58c53;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.circle-5 {
+    border: 30px solid #6b738b;
+    position: absolute;
+    left: calc(70% - 100px);
+    top: 75%;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+/*========BACKPACK=========*/
+.backpack-wrapper {
+    text-align: center;
+    padding-top: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.backpack-wrapper h1 {
+    font-size: 50px;
+    color: whitesmoke;
+
+}
+
+.backpack-wrapper p {
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.backpack-wrapper button {
+    margin-top: 5rem;
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 40px;
+    background-color: rgb(245,141,83) ;
+    border: none;
+    color: whitesmoke;
+}
+
+.backpack-wrapper button:hover {
+    width: 17rem;
+    height: 3.6rem;
+    transition: 1s ease-in-out 0.01s;
+    background: #282b33;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 40px;
+}
+
+/*animatii*/
+
+@keyframes animation_1 {
+    0% {
+        left: calc(30% - 130px);
+        top: 0;
+    }
+
+    50%{
+        left: calc(30% - 130px);
+        top: 10px;
+    }
+
+    100%{
+        left: calc(30% - 130px);
+        top: 0;
+    }
+}
+
+@keyframes animation_3 {
+    0%{
+        left: calc(40% - 150px);
+    }
+
+    50%{
+        left: calc(50% - 150px);
+    }
+
+    100%{
+        left: calc(40% - 150px);
+    }
+}
+
+@keyframes animation_4 {
+    0%{
+        top:55%;
+    }
+
+    50%{
+      top:75%;
+    }
+    100%{
+        top:55%;
+    }
+}
+
+@keyframes animation_5 {
+    0%{
+        top: 75%;
+    }
+
+    50%{
+        top: 45%;
+    }
+    100%{
+        top: 75%;
+    }
+}
+
+
+/*========= about us =========*/
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text-about {
+    padding-top: 8rem;
+    color: whitesmoke;
+    padding-left: 15rem;
+    margin-bottom: 3.5rem;
+    line-height: 1;
+    font-size: 16.5px;
+}
+
+.main-text-about h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-and-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-about{
+    font-size: 22px;
+    width: 27rem;
+    height: 32rem;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 25px;
+    margin-right: 2.5rem;
+}
+
+.card-about button {
+    background-color: #f58c53;
+    color: whitesmoke;
+    border-radius: 30px;
+    height: 3rem;
+    width: 12rem;
+    border: none;
+}
+
+.card-about button:hover {
+    width: 14rem;
+    height: 3.2rem;
+    transition: 1s ease-in-out 0.01s;
+    background: #282b33;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.photo {
+    margin-left: 2.5rem;
+    background-image: url("assets/traveler.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+/*three cards*/
+
+.three-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardthreeTemplate {
+    margin-top: 13rem;
+    font-size: 22px;
+    width: 20rem;
+    height: 29rem;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 25px;
+    margin-right: 2.5rem;
+}
+
+.cardthreeTemplate img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.cardthreeTemplate h3 {
+    margin-bottom: 1rem;
+}
+.cardthreeTemplate p{
+    color: darkgrey;
+}
+
+.cardthreeTemplate a {
+    color: #282b33;
+}
+
+
+/*circles and women in cave */
+
+
+.second-circle-wrapper {
+    position: relative;
+    margin-top: 201px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-part{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-part img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    animation: girlInTheCavesAnimation infinite  ease-in-out 6s;
+}
+
+.top-part h3 {
+   position: relative;
+    z-index: 2;
+    left: 10%;
+    font-size: 100px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.bottom-part .orange-circle {
+    width: 110px;
+    height: 110px;
+    border: 20px solid #f58c53;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 11rem;
+}
+
+.bottom-part .text-box {
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    height: 110px;
+    margin-left: 11rem;
+}
+
+
+@keyframes colorCircles {
+    0% {
+        transform: rotate(0deg);
+        border-top: 20px solid orangered;
+        border-right: 20px solid whitesmoke;
+        border-bottom: 20px solid orangered;
+        border-left: 20px solid whitesmoke;
+    }
+
+    25% {
+        transform: rotate(90deg);
+        border-top: 20px solid orangered;
+        border-right: 20px solid whitesmoke;
+        border-bottom: 20px solid orangered;
+        border-left: 20px solid whitesmoke;    }
+
+    50% {
+        transform: rotate(180deg);
+        border-top: 20px solid orangered;
+        border-right: 20px solid whitesmoke;
+        border-bottom: 20px solid orangered;
+        border-left: 20px solid whitesmoke;    }
+
+    75% {
+        transform: rotate(270deg);
+        border-top: 20px solid orangered;
+        border-right: 20px solid whitesmoke;
+        border-bottom: 20px solid orangered;
+        border-left: 20px solid whitesmoke;    }
+
+    100%{
+        transform: rotate(360deg);
+        border-top: 20px solid orangered;
+        border-right: 20px solid whitesmoke;
+        border-bottom: 20px solid orangered;
+        border-left: 20px solid whitesmoke;    }
+}
+
+
+/*3 pictures in a row*/
+
+.threeImages {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+}
+
+.threeImages img {
+    height: 400px;
+    min-width: 33.3%;
+}
+
+.white-line {
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+}
+
+
+/* footer */
+
+.footer {
+    height: 8rem;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+}
+
+.footer h4 {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    ;
+}
+
+.footer .f1 {
+    margin-right: 13px;
+}
+
+.footer .f2 {
+    margin-right: 13px;
+}
